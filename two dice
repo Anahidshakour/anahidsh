@@ -1,0 +1,35 @@
+package practise;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class randomNumberGenerator {
+
+	public static void main(String[] args) {
+		Random dice = new Random();
+		Random dice2 = new Random();
+
+		int number;
+		int number2;
+
+		Scanner input = new Scanner(System.in);
+		String input1 = input.nextLine();
+
+		while (input1.equals("dice")) {
+			
+			for (int counter = 1; counter <= 1; counter++) {
+				
+				number = 1 + dice.nextInt(6);
+				number2 = 1 + dice2.nextInt(6);
+				
+				System.out.println(number + " - " + number2);
+				
+				input1 = "esle";
+				String input2 = input.nextLine();
+				input1 = input2;
+			}
+
+		}
+	}
+
+}
