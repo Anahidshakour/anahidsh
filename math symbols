@@ -1,0 +1,27 @@
+package practise;
+
+public class mathsmethod {
+	public static void main(String[] args) {
+		//shows the absolute number in this case 26.7
+		System.out.println(Math.abs(-26.7));
+		
+		//rounds up the number
+		System.out.println(Math.ceil(35.965));
+		
+		//rounds down the number
+		System.out.println(Math.floor(35.965));
+		
+		//shows the max number between these two numbers
+		System.out.println(Math.max(5, 8));
+		
+		//shows the min number between these two numbers 
+		System.out.println(Math.min(5, 8));
+		
+		//shows the first number to the power of the sec one 
+		System.out.println(Math.pow(5, 3));
+		
+		// shows the square roots of the number
+		System.out.println(Math.sqrt(16));
+	}
+
+}
